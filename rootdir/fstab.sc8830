@@ -16,4 +16,4 @@
 
 # VOLD
 /devices/sprd-sdhci.0/mmc_host/mmc1*		  auto         auto defaults										voldmanaged=extSdCard:auto,encryptable=userdata
-/dev/block/zram0                             none                swap    defaults                                                             zramsize=536870912,zramstreams=3
+/dev/block/zram0                             none                swap    defaults                                                             zramsize=536870912,max_comp_streams=3
