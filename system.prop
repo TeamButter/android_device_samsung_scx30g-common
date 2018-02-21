@@ -72,6 +72,8 @@ ro.config.swappiness=130
 ro.config.zram.compressor=lz4
 ro.config.zram.disksize=512M
 
+ro.sys.sdcardfs=false
+
 # Multi-user UI
 fw.max_users=3
 fw.show_multiuserui=1
