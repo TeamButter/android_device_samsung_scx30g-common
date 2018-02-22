@@ -21,17 +21,7 @@
             <Quirk name="needs-flush-before-disable" />
         </MediaCodec>
 
-        <MediaCodec name="OMX.sprd.h263.decoder" type="video/3gpp">
-            <Quirk name="requires-allocate-on-output-ports" />
-            <Quirk name="needs-flush-before-disable" />
-        </MediaCodec>
-
         <MediaCodec name="OMX.sprd.h264.decoder" type="video/avc">
-            <Quirk name="requires-allocate-on-output-ports" />
-            <Quirk name="needs-flush-before-disable" />
-        </MediaCodec>
-
-        <MediaCodec name="OMX.sprd.vpx.decoder" type="video/x-vnd.on2.vp8">
             <Quirk name="requires-allocate-on-output-ports" />
             <Quirk name="needs-flush-before-disable" />
         </MediaCodec>
@@ -45,12 +35,6 @@
         <MediaCodec name="OMX.sprd.aac.decoder" type="audio/mp4a-latm" />
 
     </Decoders>
-
-    <Encoders>
-        <MediaCodec name="OMX.sprd.mpeg4.encoder" type="video/mp4v-es" />
-        <MediaCodec name="OMX.sprd.h263.encoder" type="video/3gpp" />
-        <MediaCodec name="OMX.sprd.h264.encoder" type="video/avc"/>
-    </Encoders>
 
     <Include href="media_codecs_google_audio.xml" />
     <Include href="media_codecs_google_video_le.xml" />
